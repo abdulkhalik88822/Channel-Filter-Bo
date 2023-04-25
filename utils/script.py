@@ -1,26 +1,42 @@
 class script(object):
     START = """**Hello {} 🤟**
    
-I am **Find Post Bot**.I am best Channel Link Search Bot! 
+I am **Post Filter Bot**.I am best Channel Link Search Bot! 
 I Will filter your channel posts automatically and send it in your group chat when Someone search it."""
 
-    HELP = """To Use me In A Group
+    HELP = """‼️ ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ ɪɴ ᴀ ɢʀᴏᴜᴘ ‼️
 
-- Add me in your group & channel with all permissions. 
-- Send /verify in group & wait for It To Accept Or Directly Contact To Owner After Request @GreyMatter_Bots.
-- After verification send /connect YourChannelID
-- Example : /connect -100xxxxxxxxxx
-- Done ✅. <b><I>Enjoy 💜❤</I></b> )
 
-Remove a Channel with - /disconnect-100xxxxxxxxxxx
-this will help you to remove a indexed channel from your group.
+❂ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ & ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ ᴀʟʟ ᴘᴇʀᴍɪꜱꜱɪᴏɴꜱ..
 
-Get connected channels list with - /connections"""
+❂ ꜱᴇɴᴅ /verify ɪɴ ɢʀᴏᴜᴘ & ᴡᴀɪᴛ ꜰᴏʀ ɪᴛ ᴛᴏ ᴀᴄᴄᴇᴘᴛ ᴏʀ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴏᴡɴᴇʀ ᴀꜰᴛᴇʀ ʀᴇQᴜᴇꜱᴛ @Attitude2688
 
-    ABOUT = """Developed By @CyniteBackup
+❂ ᴀꜰᴛᴇʀ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ... ꜱᴇɴᴅ /connect ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪᴅ
+
+⤨ ᴇxᴀᴍᴘʟᴇ -
+
+/connect -100xxxxxxxxxx
+
+
+⤨ ʀᴇᴍᴏᴠᴇ ᴀ ᴄʜᴀɴɴᴇʟ ᴡɪᴛʜ
+/disconnect -100xxxxxxxxxxx
+ᴛʜɪꜱ ᴡɪʟʟ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ʀᴇᴍᴏᴠᴇ ᴀ ɪɴᴅᴇxᴇᴅ ᴄʜᴀɴɴᴇʟ ꜰʀᴏᴍ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
+
+❂ ɢᴇᴛ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ ʟɪꜱᴛ ᴡɪᴛʜ
+/connections
+
+ᴛᴏ ᴀᴅᴅ ꜰᴏʀᴄᴇ sᴜʙ ᴄʜᴀɴɴᴇʟ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴀᴅᴅ ᴛʜɪs ʙᴏᴛ ɪɴ ᴄʜᴀɴɴᴇʟ ɪɴ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴀᴅᴅ ᴀs ᴀ ꜰᴏʀᴄᴇ sᴜʙ.
+
+ᴛʜᴇɴ ɢᴇᴛ ɪᴛ's ɪᴅ ( ᴄʜᴀɴɴᴇʟ ɪᴅ) ᴀɴᴅ sᴇɴᴅ  /fsub ᴡɪᴛʜ ɪᴅ
+
+⤨ ᴇxᴀᴍᴘʟᴇ -
+
+/fub -100xxxxxxxxxx"""
+
+    ABOUT = """Developed By @Attitude2688
 
 ✯ Mʏ Nᴀᴍᴇ:  {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/CyniteOfficial'>Harman</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/bots_up'>@Attitude2688</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://cloud.mongodb.com/'>MᴏɴɢᴏDB</a>
 ✯ Bᴏᴛ Sᴇʀᴠᴇʀ: : <a href='https://heroku.com'>Heroku</a>"""
